@@ -7,11 +7,11 @@ import Profile from './pages/Profile';
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/jobs" element={<Jobs />} />
-        <Route path="/profile" element={<Profile />} />
+        {/* <Route path="/jobs" element={<Jobs />} />
+        <Route path="/profile" element={<Profile />} /> */}
       </Routes>
     </Router>
   );
